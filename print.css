@@ -1,0 +1,61 @@
+@media print {
+	
+.nav {
+	display: none;
+}
+.footer {
+	display: none;
+}
+.navbar-brand {
+	display: none;
+}
+body {
+	color: black;
+	background: white;
+}
+* {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+}
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: black;
+}
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+}
+.welcome {
+	font-size: 14pt;
+	color: black;
+}
+.email {
+	text-decoration: underline;
+	color: #0000ff;
+}
+.contact {
+	text-decoration: underline;
+	color: #0000ff;
+}
+a {
+	text-decoration: underline;
+	color: #0000ff;
+}
+img {
+	max-width: 250px
+}
+.desaturate {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+@page {
+	margin: 1cm;
+}
+#printMsg {
+	display: block;
+	color: black;
+	font-size: 12pt;
+}
+
+}
